@@ -1,0 +1,8 @@
+concept_sea
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Sea] (* <- lang_en;; *);
+=> nrel_note:
+	[часть Мирового океана, обособленная сушей или возвышениями подводного рельефа] (* <- lang_ru;; *);;

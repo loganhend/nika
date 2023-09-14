@@ -1,0 +1,8 @@
+concept_continent
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Материк] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Continent] (* <- lang_en;; *);
+=> nrel_note:
+	[крупный массив земной коры, большая часть которого не покрыта водой, а окраины находятся ниже уровня океана] (* <- lang_ru;; *);;

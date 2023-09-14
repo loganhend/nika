@@ -1,0 +1,151 @@
+bering_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Берингово море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Bering sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  arctic_ocean;
+=> nrel_note:
+	[Окраинное море на севере Тихого океана,] (* <- lang_ru;; *);;
+
+labrador_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Море Лабрадор] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Labrador sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  atlantic_ocean;
+=> nrel_note:
+	[Часть Атлантического океана между полуостровом Лабрадор и островом Ньюфаундленд (на юго-западе) и Гренландией (на северо-востоке).] (* <- lang_ru;; *);;
+
+caribbean_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Карибское море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Caribbean sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  atlantic_ocean;
+=> nrel_note:
+	[Окраинное полузамкнутое море бассейна Атлантического океана] (* <- lang_ru;; *);;
+
+beaufort_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Море Бофорта] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Beaufort sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  arctic_ocean;
+=> nrel_note:
+	[Окраинное море Северного Ледовитого океана, омывающее северные берега Канады и Аляски.] (* <- lang_ru;; *);;
+
+baffin_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Море Баффина] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Baffin sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  arctic_ocean;
+=> nrel_note:
+	[Море Северного Ледовитого океана, граничащее с морем Лабрадор Атлантического океана и омывающее западный берег Гренландии.] (* <- lang_ru;; *);;
+
+arafura_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Араруфское море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Arafura sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  pacific_ocean;
+=> nrel_note:
+	[Окраинное море Индийского океана между Австралией, Новой Гвинеей и островами Танимбар и Кай.] (* <- lang_ru;; *);;
+
+coral_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Коралловое море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Coral sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  pacific_ocean;
+=> nrel_note:
+	[Межостровное море Тихого океана, которое лежит между берегов Австралии, Новой Гвинеи и Новой Каледонии.] (* <- lang_ru;; *);;
+
+tasman_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Тасманово море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Tasman sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  pacific_ocean;
+=> nrel_note:
+	[Водное пространство, разделяющее Австралию и Новую Зеландию, Тасманово море расположено в юго-западной части Тихого океана. Если исключить прибрежные моря Антарктиды, это самое южное море тихоокеанского бассейна. ] (* <- lang_ru;; *);;
+
+timor_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Тиморское море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Timor sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  pacific_ocean;
+=> nrel_note:
+	[Море, расположеное между Австралией и островом Тимор. ] (* <- lang_ru;; *);;
+
+mediterranean_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Средиземное море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Mediterranean sea] (* <- lang_en;; *);
+=> nrel_note:
+	[Межматериковое море, связанную на западе с Атлантическим океаном Гибралтарским проливом.] (* <- lang_ru;; *);;
+
+red_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Красное море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Red sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  indian_ocean;
+=> nrel_note:
+	[Внутреннее море Индийского океана, расположенное между Аравийским полуостровом и Африкой в тектонической впадине] (* <- lang_ru;; *);;
+
+baltic_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Балтийское море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Baltic sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  atlantic_ocean;
+=> nrel_note:
+	[Внутриматериковое море Евразии, расположенное в Северной Европе (частично омывает также берега Западной и Восточной Европы). Относится к бассейну Атлантического океана. ] (* <- lang_ru;; *);;
+
+north_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Северное море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[North sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  atlantic_ocean;
+=> nrel_note:
+	[Мелководное шельфовое море Атлантического океана, омывающее берега Северной Европы. ] (* <- lang_ru;; *);;
+
+black_sea
+<- concept_sea;
+=> nrel_main_idtf:
+	[Черное море] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Black sea] (* <- lang_en;; *);
+=> nrel_be_located: 
+  atlantic_ocean;
+=> nrel_note:
+	[Внутреннее море бассейна Атлантического океана] (* <- lang_ru;; *);;

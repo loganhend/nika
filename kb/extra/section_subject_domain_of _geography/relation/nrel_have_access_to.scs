@@ -1,0 +1,50 @@
+nrel_have_access_to
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[Иметь выход к*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Have access to*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_country;
+=> nrel_second_domain: 
+  {
+    concept_ocean;
+    concept_sea 
+  };
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+              concept_country;
+            	concept_ocean;
+              concept_sea
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (Иметь выход к* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Иметь выход к* - бинарное неролевое отношение между страной и океаном или морем, которое демонстирует, имеет ли страна выход к тому или иному морю или океану.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+	      {
+            relation;
+            concept_country;
+            concept_ocean;
+            concept_sea
+        };;
+  *);;

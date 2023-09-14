@@ -1,0 +1,8 @@
+concept_monarchy
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Монархия] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Monarchy] (* <- lang_en;; *);
+=> nrel_note:
+	[форма правления, при которой главой государства является монарх, носящий соответствующий титул.] (* <- lang_ru;; *);;

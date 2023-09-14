@@ -1,0 +1,27 @@
+Ottawa
+<- concept_city;
+=> nrel_main_idtf:
+	[Оттава] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Ottawa] (* <- lang_en;; *);
+=> nrel_note:
+	[Столица Канады. Оттава — четвёртый по величине город страны и второй по величине город Онтарио.] (* <- lang_ru;; *);;
+
+Buenos_Aires
+<- concept_city;
+=> nrel_main_idtf:
+	[Буэнос-Айрес] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Buenos Aires] (* <- lang_en;; *);
+=> nrel_note:
+	[Город, столица Аргентины, административный, культурный и экономический центр страны и один из крупнейших городов Южной Америки. ] (* <- lang_ru;; *);;
+
+Berlin
+<- concept_city;
+=> nrel_main_idtf:
+	[Берлин] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Berlin] (* <- lang_en;; *);
+=> nrel_note:
+	[Столица и крупнейший город Германии, первый по населению и третий по площади город Евросоюза.] (* <- lang_ru;; *);;
+

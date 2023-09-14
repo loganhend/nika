@@ -1,0 +1,8 @@
+concept_prime_minister
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Премьер-министр] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Prime Minister] (* <- lang_en;; *);
+=> nrel_note:
+	[глава исполнительной власти в государствах, где этот пост отделён от поста главы государства, а также в субъектах федеративных государств.] (* <- lang_ru;; *);;

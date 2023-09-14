@@ -1,0 +1,13 @@
+concept_main_governing_body
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_parliament;
+	concept_president;
+	concept_monarch;
+	concept_prime_minister;
+=> nrel_main_idtf:
+	[Главный орган управления] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[The main governing body] (* <- lang_en;; *);
+=> nrel_note:
+	[высший орган государственного управления и государственной власти.] (* <- lang_ru;; *);;

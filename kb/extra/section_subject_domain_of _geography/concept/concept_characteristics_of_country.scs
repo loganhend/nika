@@ -1,0 +1,12 @@
+concept_characteristics_of_country
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_form_of_government;
+	concept_main_governing_body;
+	concept_administrative_territorial_units;
+=> nrel_main_idtf:
+	[Характеристики страны] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Characteristics of country] (* <- lang_en;; *);
+=> nrel_note:
+	[набор определённых характеристик, с помощью которых можно описать страну] (* <- lang_ru;; *);;

@@ -1,0 +1,11 @@
+concept_political_geography
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_country;
+	concept_characteristics_of_country;
+=> nrel_main_idtf:
+	[Политическая география] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Political geography] (* <- lang_en;; *);
+=> nrel_note:
+	[общественно-географическая наука, изучающая территориальную дифференциацию политических явлений и процессов] (* <- lang_ru;; *);;

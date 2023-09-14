@@ -1,0 +1,13 @@
+concept_water_objects
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_ocean;
+  concept_sea;
+  concept_river;
+  concept_lake;
+=> nrel_main_idtf:
+	[Водные объекты] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Water objects] (* <- lang_en;; *);
+=> nrel_note:
+	[природные или искусственные водоёмы, водотоки либо иной объекты, постоянные или временные сосредоточения вод, в которые имеют характерные формы и признаки водного режима.] (* <- lang_ru;; *);;

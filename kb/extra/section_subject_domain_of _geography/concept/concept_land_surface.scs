@@ -1,0 +1,11 @@
+concept_land_surface
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_continent;
+  concept_island;
+=> nrel_main_idtf:
+	[Поверхность суши] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Land surface] (* <- lang_en;; *);
+=> nrel_note:
+	[часть поверхности планеты Земля, не покрытая водами Мирового океана и другими водными объектами.] (* <- lang_ru;; *);;

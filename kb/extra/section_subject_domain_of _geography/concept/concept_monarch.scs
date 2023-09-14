@@ -1,0 +1,8 @@
+concept_monarch
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Монарх] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Monarch] (* <- lang_en;; *);
+=> nrel_note:
+	[лицо, стоящее во главе монархии. Общее название для царей, королей, императоров и т.д.] (* <- lang_ru;; *);;

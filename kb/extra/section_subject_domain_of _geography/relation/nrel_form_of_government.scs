@@ -1,0 +1,51 @@
+nrel_form_of_government
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[Форма государственного правления*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Form of government*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_country;
+=> nrel_second_domain: 
+    {
+      concept_republic;
+      concept_monarchy
+    };
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+              concept_country;
+            	concept_republic;
+              concept_monarchy
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (Форма государственного правления* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Форма государственного правления* - бинарное неролевое отношение между страной и формой государственного правления (республика или монахия), которое демонстрирует форму государственного правления в той или иной стране.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            relation;
+            concept_country;
+            concept_form_of_government;
+            concept_monarchy;
+            concept_republic
+        };;
+  *);;

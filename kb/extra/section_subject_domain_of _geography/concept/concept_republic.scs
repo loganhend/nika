@@ -1,0 +1,8 @@
+concept_republic
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Республиика] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Republic] (* <- lang_en;; *);
+=> nrel_note:
+	[форма правления, при котором верховная власть принадлежит выбранным на определённый срок органам власти.] (* <- lang_ru;; *);;

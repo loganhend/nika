@@ -1,0 +1,11 @@
+concept_parliament
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_lower_house_of_parliament;
+	concept_upper_house_of_parliament;
+=> nrel_main_idtf:
+	[Парламент] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Parliament] (* <- lang_en;; *);
+=> nrel_note:
+	[высший представительный и законодательный орган в государствах с наличием системы разделения властей. Парламента может быть однопалатным и двухпалатный.] (* <- lang_ru;; *);;

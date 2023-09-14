@@ -1,0 +1,11 @@
+concept_geography
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_physical_geography;
+  concept_political_geography;
+=> nrel_main_idtf:
+	[География] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Geography] (* <- lang_en;; *);
+=> nrel_note:
+	[наука, изучающая поверхность земли с её природными условиями, распределение на ней населения, экономических ресурсов.] (* <- lang_ru;; *);;

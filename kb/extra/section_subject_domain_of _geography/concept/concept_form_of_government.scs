@@ -1,0 +1,11 @@
+concept_form_of_government
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_republic;
+  concept_monarchy;
+=> nrel_main_idtf:
+	[Форма правления] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Form of government] (* <- lang_en;; *);
+=> nrel_note:
+	[система организации высших органов государственной власти, порядок их образования, сроки деятельности и компетенцию, а также порядок взаимодействия данных органов между собой и с населением, степень участия населения в их формировании] (* <- lang_ru;; *);;

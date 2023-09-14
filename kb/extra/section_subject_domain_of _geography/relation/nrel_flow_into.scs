@@ -1,0 +1,51 @@
+nrel_flow_into
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- transitive_relation;
+=> nrel_main_idtf:
+	[Впадать в*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Flow into*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_river;
+=> nrel_second_domain: 
+   {
+      concept_sea;
+      concept_ocean;
+      concept_river
+   };
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+            	concept_river;
+               concept_sea;
+               concept_ocean
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (Впадать в* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Впадать в* - бинарное неролевое отношение между рекой и морем, океаном или другой рекой, которое показывет, куда впадает данная река.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            relation;
+            concept_river;
+            concept_sea;
+            concept_ocean
+        };;
+  *);;

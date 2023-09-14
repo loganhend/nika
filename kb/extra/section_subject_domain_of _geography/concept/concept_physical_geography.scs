@@ -1,0 +1,11 @@
+concept_physical_geography
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_land_surface;
+  concept_water_objects;
+=> nrel_main_idtf:
+	[Физическая география] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Physical geography] (* <- lang_en;; *);
+=> nrel_note:
+	[система наук, изучающих структуру, динамику и функционирование географической оболочки и её структурных частей] (* <- lang_ru;; *);;

@@ -1,0 +1,71 @@
+lake_superior
+<- concept_lake;
+=> nrel_main_idtf:
+	[Озеро Верхнее] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Superion lake] (* <- lang_en;; *);
+=> nrel_be_located:
+	Canada;
+	USA;
+=> nrel_note:
+	[Озеро в Северной Америке, самое крупное и глубокое в системе Великих озёр. Является самым большим по площади пресным озером мира ] (* <- lang_ru;; *);;
+
+lake_huron
+<- concept_lake;
+=> nrel_main_idtf:
+	[Озеро Гурон] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Huron lake] (* <- lang_en;; *);
+=> nrel_be_located:
+	Canada;
+	USA;
+=> nrel_note:
+	[Озеро в США и Канаде, одно из североамериканских Великих озёр (второе по площади после Верхнего)] (* <- lang_ru;; *);;
+
+lake_erie
+<- concept_lake;
+=> nrel_main_idtf:
+	[Озеро Эри] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Erie lake] (* <- lang_en;; *);
+=> nrel_be_located:
+	Canada;
+	USA;
+=> nrel_note:
+	[Озеро в Канаде и США, четвёртое в системе Великих озёр. Имея площадь 25 700 км², Эри занимает по этому параметру 11-е место среди озёр мира ] (* <- lang_ru;; *);;
+
+lake_ontario
+<- concept_lake;
+=> nrel_main_idtf:
+	[Озеро Онтарио] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Ontario lake] (* <- lang_en;; *);
+=> nrel_be_located:
+	Canada;
+	USA;
+=> nrel_note:
+	[Озеро на границе США и Канады, самое восточное и самое маленькое по площади в системе Великих озёр.] (* <- lang_ru;; *);;
+
+lake_winnipeg
+<- concept_lake;
+=> nrel_main_idtf:
+	[Озеро Виннипег] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Winnipeg lake] (* <- lang_en;; *);
+=> nrel_be_located:
+	Canada;
+=> nrel_note:
+	[Крупное озеро в провинции Манитоба, Канада, примерно в 55 км к северу от города Виннипег. Это крупнейшее озеро в пределах южной Канады. ] (* <- lang_ru;; *);;
+
+lake_constance
+<- concept_lake;
+=> nrel_main_idtf:
+	[Боденское озеро] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Lake Constance] (* <- lang_en;; *);
+=> nrel_be_located: 
+  Germany;
+	Switzerland;
+	Austria;
+=> nrel_note:
+	[Oзеро, находящееся в Предальпах на границе Германии, Швейцарии и Австрии] (* <- lang_ru;; *);;

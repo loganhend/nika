@@ -1,0 +1,48 @@
+section_subject_domain_of_geography
+    => nrel_main_idtf:
+        [Раздел. Предметная область по географии] (* <- lang_ru;; *);
+<- sc_node_class;
+<- atomic_section;;
+
+section_subject_domain_of_geography = [*
+    subject_domain_of_geography
+        => nrel_main_idtf: 
+            [Предметная область по географии] (* <- lang_ru;; *);
+        <- subject_domain;
+        -> rrel_maximum_studied_object_class:
+            concept_geography;
+        -> rrel_explored_relation:
+            nrel_flow_through;
+            nrel_flow_into;
+            nrel_to_be_washed_by;
+            nrel_split_up;
+            nrel_form_of_government;
+            nrel_be_located;
+            nrel_border_with;
+            nrel_have_access_to;
+            rrel_capital;
+            rrel_governing_body;
+        -> rrel_not_maximum_studied_object_class:
+            concept_physical_geography;
+            concept_land_surface;
+            concept_continent;
+            concept_island;
+            concept_water_objects;
+            concept_ocean;
+            concept_sea;
+            concept_river;
+            concept_lake;
+            concept_political_geography;
+            concept_country;
+	        concept_characteristics_of_country;
+            concept_form_of_government;
+            concept_republic;
+            concept_monarchy;
+            concept_main_governing_body;
+            concept_parliament;
+            concept_president;
+            concept_monarch;
+            concept_administrative_territorial_units;
+            concept_city;
+            concept_prime_minister;;
+*];;

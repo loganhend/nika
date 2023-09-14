@@ -1,0 +1,53 @@
+area
+<- concept_administrative_territorial_units;
+=> nrel_main_idtf:
+	[Область] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Area] (* <- lang_en;; *);
+=> nrel_note:
+	[административно-территориальная единица Армении, Беларуси, Болгарии, Казахстана, Киргизии и Украины и других стран] (* <- lang_ru;; *);;
+
+district
+<- concept_administrative_territorial_units;
+=> nrel_main_idtf:
+	[Район] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[District] (* <- lang_en;; *);
+=> nrel_note:
+	[небольшая административно-территориальная единица внутри области или внутри крупного города.] (* <- lang_ru;; *);;
+
+land
+<- concept_administrative_territorial_units;
+=> nrel_main_idtf:
+	[Земля] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Land] (* <- lang_en;; *);
+=> nrel_note:
+	[административно-территориальная единица в Германии, Польше и в других странах] (* <- lang_ru;; *);;
+
+province
+<- concept_administrative_territorial_units;
+=> nrel_main_idtf:
+	[Провинция] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Province] (* <- lang_en;; *);
+=> nrel_note:
+	[одна из разновидностей административно-территориальных единиц государства.] (* <- lang_ru;; *);;
+
+region
+<- concept_administrative_territorial_units;
+=> nrel_main_idtf:
+	[Регион] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Region] (* <- lang_en;; *);
+=> nrel_note:
+	[административно-территориальная единица государства] (* <- lang_ru;; *);;
+
+state
+<- concept_administrative_territorial_units;
+=> nrel_main_idtf:
+	[Штат] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[State] (* <- lang_en;; *);
+=> nrel_note:
+	[административно-территориальная единица с внутренним самоуправлением, с определённым суверенитетом, в США, странах Латинской Америки, в Австралии, в Индии и так далее.] (* <- lang_ru;; *);;

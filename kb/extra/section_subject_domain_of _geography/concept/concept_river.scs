@@ -1,0 +1,8 @@
+concept_river
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Река] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[River] (* <- lang_en;; *);
+=> nrel_note:
+	[постоянный водный поток значительных размеров с естественным течением по руслу от истока вниз до устья.] (* <- lang_ru;; *);;

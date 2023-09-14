@@ -1,0 +1,215 @@
+Canada
+<- concept_country;
+=> nrel_main_idtf:
+	[Канада] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Canada] (* <- lang_en;; *);
+=> nrel_be_located:
+  north_america;
+  baffins_land;
+=> nrel_border_with:
+  USA;
+  Denmark;
+  France;
+=> nrel_have_access_to:
+  labrador_sea;
+  baffin_sea;
+  beaufort_sea;
+  arctic_ocean;
+  atlantic_ocean;
+  pacific_ocean;
+=> nrel_split_up:
+  province;
+-> rrel_capital:
+  Ottawa;
+=> nrel_form_of_government:
+  constitutional_monarchy;
+=> rrel_governing_body:
+  Karl_3;
+  Parliament_of_Canada;
+  Justin_Trudeau;
+=> nrel_note:
+	[Государство в Северной Америке, крупнейшее по площади на этом континенте и второе в мире.] (* <- lang_ru;; *);;
+
+Argentina
+<- concept_country;
+=> nrel_main_idtf:
+	[Аргентина] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Argentina] (* <- lang_en;; *);
+=> nrel_be_located:
+  south_america;
+=> nrel_border_with:
+  Chile;
+  Bolivia;
+  Paraguay;
+  Brazil;
+  Uruguay;
+=> nrel_have_access_to:
+  atlantic_ocean;
+=> nrel_split_up:
+  province;
+-> rrel_capital:
+  Buenos_Aires;
+=> nrel_form_of_government:
+  presidential_republic;
+=> rrel_governing_body:
+  Alberto_Fernandez;
+  Agustin_Rossi;
+  National_Congress_argentina;
+=> nrel_note:
+	[Второе после Бразилии по территории и третье после Бразилии и Колумбии по населению государство Южной Америки] (* <- lang_ru;; *);;
+
+Germany
+<- concept_country;
+=> nrel_main_idtf:
+	[Германия] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Germany] (* <- lang_en;; *);
+=> nrel_be_located:
+  eurasia;
+=> nrel_border_with:
+  Denmark;
+  Poland;
+  Czech;
+  Austria;
+  Switzerland;
+  France;
+  Luxembourg;
+  Belgium;
+  Netherlands;
+=> nrel_have_access_to:
+  baltic_sea;
+  north_sea;
+=> nrel_split_up:
+  land;
+-> rrel_capital:
+  Berlin;
+=> nrel_form_of_government:
+  parliamentary_republic;
+=> rrel_governing_body:
+  Olaf_Scholz;
+  Frank_Walter_Steinmeier;
+  Bundestag;
+=> nrel_note:
+	[Государство в Центральной Европе. Занимает 19-е место в мире по численности населения (1-е место в ЕС, 3-е в Европе) и 62-е в мире по территории (8-е в Европе). ] (* <- lang_ru;; *);;
+
+USA
+<- concept_country;
+=> nrel_main_idtf:
+	[США] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[USA] (* <- lang_en;; *);;
+
+Denmark
+<- concept_country;
+=> nrel_main_idtf:
+	[Дания] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Denmark] (* <- lang_en;; *);;
+
+France
+<- concept_country;
+=> nrel_main_idtf:
+	[Франция] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[France] (* <- lang_en;; *);;
+
+Chile
+<- concept_country;
+=> nrel_main_idtf:
+	[Чили] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Chile] (* <- lang_en;; *);;
+
+Bolivia
+<- concept_country;
+=> nrel_main_idtf:
+	[Боливия] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Bolivia] (* <- lang_en;; *);;
+
+Paraguay
+<- concept_country;
+=> nrel_main_idtf:
+	[Парагвай] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Paraguay] (* <- lang_en;; *);;
+
+Brazil
+<- concept_country;
+=> nrel_main_idtf:
+	[Бразилия] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Brazil] (* <- lang_en;; *);;
+
+Uruguay
+<- concept_country;
+=> nrel_main_idtf:
+	[Уругвай] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Uruguay] (* <- lang_en;; *);;
+
+Denmark
+<- concept_country;
+=> nrel_main_idtf:
+	[Дания] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Denmark] (* <- lang_en;; *);;
+
+Poland
+<- concept_country;
+=> nrel_main_idtf:
+	[Польша] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Poland] (* <- lang_en;; *);;
+
+Czech
+<- concept_country;
+=> nrel_main_idtf:
+	[Чехия] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Czech] (* <- lang_en;; *);;
+
+Austria
+<- concept_country;
+=> nrel_main_idtf:
+	[Австрия] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Austria] (* <- lang_en;; *);;
+
+Switzerland
+<- concept_country;
+=> nrel_main_idtf:
+	[Швейцария] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Switzerland] (* <- lang_en;; *);;
+
+Luxembourg
+<- concept_country;
+=> nrel_main_idtf:
+	[Люксембург] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Luxembourg] (* <- lang_en;; *);;
+
+Belgium
+<- concept_country;
+=> nrel_main_idtf:
+	[Бельгия] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Belgium] (* <- lang_en;; *);;
+
+Netherlands
+<- concept_country;
+=> nrel_main_idtf:
+	[Нидерланды] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Netherlands] (* <- lang_en;; *);;
+
+Liechtenstein
+<- concept_country;
+=> nrel_main_idtf:
+	[Лихтенштейн] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Liechtenstein] (* <- lang_en;; *);;
+  

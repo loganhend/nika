@@ -1,0 +1,63 @@
+nrel_be_located
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- transitive_relation;
+=> nrel_main_idtf:
+	[Раполагаться*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[To be located*] (* <- lang_en;; *);
+=> nrel_first_domain: 
+   { 
+      concept_city;
+      concept_country;
+      concept_island;
+      concept_lake;
+      concept_river;
+      concept_sea
+   };
+=> nrel_second_domain: 
+   {
+      concept_ocean;
+      concept_sea;
+      concept_island;
+      concept_continent;
+      concept_country
+   };
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+            	concept_ocean;
+               concept_sea;
+               concept_continent;
+               concept_country;
+               oncept_city;
+               concept_island;
+               concept_lake;
+               concept_river
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (Располгаться* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Располагаться* - бинарное неролевое отношение между различными географическими объектами, которое определяет расположение этих объектом внутри других объектов (на других объектах).]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            relation
+        };;
+  *);;

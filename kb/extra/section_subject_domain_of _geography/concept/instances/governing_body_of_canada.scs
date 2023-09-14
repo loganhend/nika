@@ -1,0 +1,52 @@
+Karl_3
+<- concept_monarch;
+=> nrel_main_idtf:
+  [Карл III] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+  [Karl III] (* <- lang_en;; *);
+=> nrel_note:
+  [Правящий король Великобритании и Северной Ирландии и королевств Содружества из Виндзорской династии, верховный главнокомандующий вооружёнными силами Великобритании, верховный правитель Церкви Англии, глава Содружества наций с 8 сентября 2022 года. Помимо Великобритании, является монархом в четырнадцати независимых государствах: Австралии, Антигуа и Барбуде, Багамских Островах, Белизе, Гренаде, Канаде, Новой Зеландии, Папуа — Новой Гвинее, Сент-Винсенте и Гренадинах, Сент-Китсе и Невисе, Сент-Люсии, Соломоновых Островах, Тувалу и Ямайке.] (* <- lang_ru;; *);;
+
+Justin_Trudeau
+<- concept_prime_minister;
+=> nrel_main_idtf:
+  [Джастин Трюдо] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+  [Justin Trudeau] (* <- lang_en;; *);
+=> nrel_note:
+  [Канадский государственный и политический деятель, премьер-министр Канады с 4 ноября 2015 года, лидер Либеральной партии Канады с 14 апреля 2013 года] (* <- lang_ru;; *);;
+
+Parliament_of_Canada
+<- concept_parliament;
+=> nrel_main_idtf:
+  [Парламент Канады] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+  [The Parliament of Canada] (* <- lang_en;; *);
+<= nrel_subdividing: 
+	...
+   (*
+   		<- sc_node_tuple;;
+   		-> House_of_Commons_canada;;
+   		-> Senate_canada;;
+      -> Karl_3;;
+   *);
+=> nrel_note:
+  [Канадский федеральный законодательный орган, заседающий на Парламентском холме в городе Оттава] (* <- lang_ru;; *);;
+
+House_of_Commons_canada
+<- concept_lower_house_of_parliament;
+=> nrel_main_idtf:
+  [Палата общин] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+  [The House of Commons] (* <- lang_en;; *);
+=> nrel_note:
+  [Это демократически избираемая палата, состоящая из 338 депутатов.] (* <- lang_ru;; *);;
+
+Senate_canada
+<- concept_upper_house_of_parliament;
+=> nrel_main_idtf:
+  [Сенат] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+  [The Senate] (* <- lang_en;; *);
+=> nrel_note:
+  [Одна из трёх составляющих Парламента Канады наряду с монархом (представленным генерал-губернатором) и Палатой общин] (* <- lang_ru;; *);;

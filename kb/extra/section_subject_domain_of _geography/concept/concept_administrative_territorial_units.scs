@@ -1,0 +1,10 @@
+concept_administrative_territorial_units
+<- sc_node_class;
+=> nrel_inclusion:
+	concept_city;
+=> nrel_main_idtf:
+	[Административно-территориальные единицы] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Administrative territorial units] (* <- lang_en;; *);
+=> nrel_note:
+	[единицы административно-территориального деления государства. Они обычно имеют полномочия принимать административные или политические решения для своей территории. Обычно в странах существует несколько уровней административного деления.] (* <- lang_ru;; *);;

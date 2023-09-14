@@ -1,0 +1,109 @@
+st_lawrence_river
+<- concept_river;
+=> nrel_main_idtf:
+	[Река Св. Лаврентия] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[St. Lawrence river] (* <- lang_en;; *);
+=> nrel_flow_into:
+  atlantic_ocean;
+=> nrel_flow_through:
+  Canada;
+=> nrel_note:
+	[Крупная водная артерия в Северной Америке, протекающая по территории США и Канады и соединяющая Великие озёра с Атлантическим океаном. ] (* <- lang_ru;; *);;
+
+mackenzie_river
+<- concept_river;
+=> nrel_main_idtf:
+	[Река Маккензи] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Mackenzie river] (* <- lang_en;; *);
+=> nrel_flow_into:
+  beaufort_sea;
+=> nrel_flow_through:
+  Canada;
+=> nrel_note:
+	[Крупнейшая река Канады и всего американского севера протяжённостью 1738 км.] (* <- lang_ru;; *);;
+
+oder_river
+<- concept_river;
+=> nrel_main_idtf:
+	[Река Одер] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Oder river] (* <- lang_en;; *);
+=> nrel_flow_into:
+	baltic_sea;
+=> nrel_flow_through:
+  Poland;
+	Germany;
+	Czech;
+=> nrel_note:
+	[Река в Чехии, Польше и Германии. Одра образует часть границы между Польшей и Германией. Является третьей по длине рекой Польши] (* <- lang_ru;; *);;
+
+danube_river
+<- concept_river;
+=> nrel_main_idtf:
+	[Река Дунай] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Danube river] (* <- lang_en;; *);
+=> nrel_flow_into:
+	black_sea;
+=> nrel_flow_through:
+	Germany;
+	Austria;
+  Slovakia;
+	Hungary;
+	Croatia;
+	Serbia;
+	Bulgaria;
+	Romania;
+	Ukraine;
+	Moldova;
+=> nrel_note:
+	[вторая по протяжённости и полноводности река в Европе, трансграничная река, самая длинная река на территории Европейского Союза.] (* <- lang_ru;; *);;
+
+elbe_river
+<- concept_river;
+=> nrel_main_idtf:
+	[Река Эльба] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Elbe river] (* <- lang_en;; *);
+=> nrel_flow_into:
+	north_sea;
+=> nrel_flow_through:
+  Czech;
+	Germany;
+=> nrel_note:
+	[Река бассейна Северного моря. Берёт начало в Чехии, основное течение на территории Германии] (* <- lang_ru;; *);;
+
+rhine_river
+<- concept_river;
+=> nrel_main_idtf:
+	[Река Рейн] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Rhine river] (* <- lang_en;; *);
+=> nrel_flow_into:
+	north_sea;
+=> nrel_flow_through:
+  Switzerland;
+	Austria;
+	Germany;
+	France;
+	Netherlands;
+	Liechtenstein;
+=> nrel_note:
+	[крупная река в Западной Европе, впадает в Северное море. Протекает по территории 6 государств: Швейцарии, Лихтенштейна, Австрии, Германии, Франции, Нидерландов. ] (* <- lang_ru;; *);;
+
+parana_river
+<- concept_river;
+=> nrel_main_idtf:
+	[Река Парана] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Parana river] (* <- lang_en;; *);
+=> nrel_flow_into:
+	atlantic_ocean;
+=> nrel_flow_through:
+  Brazil;
+	Paraguay;
+	Argentina;
+=> nrel_note:
+	[река в Южной Америке, вторая по длине река этого континента. Протекает в южной части континента по территории Бразилии, Парагвая и Аргентины. ] (* <- lang_ru;; *);;

@@ -1,0 +1,10 @@
+concept_upper_house_of_parliament
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Верхняя палата парламента] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Upper house of parliament] (* <- lang_en;; *);
+=> nrel_note:
+	[В верхней палате парламента одобряются законы, принятые в нижней палате парламента.] (* <- lang_ru;; *);
+=> nrel_note:
+	[Зачастую верхняя палата формируется из членов нижней палаты или путем назначения.] (* <- lang_ru;; *);;

@@ -1,0 +1,51 @@
+Alberto_Fernandez
+<- concept_president;
+=> nrel_main_idtf:
+	[Альберто Фернандес] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Alberto Fernandez] (* <- lang_en;; *);
+=> nrel_note:
+	[Аргентинский юрист и политик. Президент Аргентины с 10 декабря 2019 года.] (* <- lang_ru;; *);;
+
+Agustin_Rossi
+<- concept_prime_minister;
+=> nrel_main_idtf:
+	[Агустин Росси] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Agustin Rossi] (* <- lang_en;; *);
+=> nrel_note:
+	[Аргентинский политик] (* <- lang_ru;; *);;
+
+National_Congress_argentina
+<- concept_parliament;
+=> nrel_main_idtf:
+	[Национальный конгресс] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[National Congress] (* <- lang_en;; *);
+  <= nrel_subdividing: 
+	...
+   (*
+   		<- sc_node_tuple;;
+   		-> Senate_argentina;;
+      -> Chamber_of_Deputies_argentina;;
+   *);
+=> nrel_note:
+	[Законодательный орган (парламент) Аргентины] (* <- lang_ru;; *);;
+
+Senate_argentina
+<- concept_upper_house_of_parliament;
+=> nrel_main_idtf:
+	[Сенат] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Senate] (* <- lang_en;; *);
+=> nrel_note:
+	[Верхняя палата Национального конгресса Аргентины.] (* <- lang_ru;; *);;
+
+Chamber_of_Deputies_argentina
+<- concept_lower_house_of_parliament;
+=> nrel_main_idtf:
+	[Палата депутатов] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Chamber of Deputies] (* <- lang_en;; *);
+=> nrel_note:
+	[Нижняя палата Национального конгресса Аргентины] (* <- lang_ru;; *);;

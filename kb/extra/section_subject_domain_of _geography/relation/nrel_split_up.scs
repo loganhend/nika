@@ -1,0 +1,44 @@
+nrel_split_up
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[Подразделяться на*] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Split up*] (* <- lang_en;; *);
+=> nrel_first_domain: concept_country;
+=> nrel_second_domain: concept_administrative_territorial_units;
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+            	concept_country;
+            	concept_administrative_territorial_units
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (Подразделяться на* )]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Подразделяться на* - бинарное неролевое отношение между страной и территориально-административными единицами, которое показывают, на какие административно-территориальные единицы делится страна.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            concept_country;
+            concept_administrative_territorial_units;
+            relation
+        };;
+  *);;

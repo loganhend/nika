@@ -1,0 +1,26 @@
+Olaf_Scholz
+<- concept_prime_minister;
+=> nrel_main_idtf:
+	[Олаф Шольц] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Olaf_Scholz] (* <- lang_en;; *);
+=> nrel_note:
+	[Немецкий политический и государственный деятель. Федеральный канцлер Германии с 8 декабря 2021 года. Член Социал-демократической партии Германии] (* <- lang_ru;; *);;
+
+Frank_Walter_Steinmeier
+<- concept_president;
+=> nrel_main_idtf:
+	[Франк-Вальтер Штайнмайер] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Frank_Walter_Steinmeier] (* <- lang_en;; *);
+=> nrel_note:
+	[Немецкий государственный и политический деятель, действующий Федеральный президент Германии с 19 марта 2017 года] (* <- lang_ru;; *);;
+
+Bundestag
+<- concept_parliament;
+=> nrel_main_idtf:
+	[Бундестаг] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Bundestag] (* <- lang_en;; *);
+=> nrel_note:
+	[Однопалатный орган народного представительства Федеративной Республики Германия. ] (* <- lang_ru;; *);;

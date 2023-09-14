@@ -1,0 +1,44 @@
+rrel_capital
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+	[Столица'] (* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Capital'] (* <- lang_en;; *);
+=> nrel_first_domain: concept_country;
+=> nrel_second_domain: concept_city;
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination:
+        	{
+            	concept_country;
+            	concept_city
+        	};;
+   *);
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (Столица')]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Столица' - бинарное неролевое отношение между страной и городом, которое показывает, какой город является столицей данного государства.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants:
+		{
+            concept_country;
+            concept_city;
+            relation
+        };;
+  *);;
